@@ -1,0 +1,128 @@
+  [4;36;1mSQL (0.000147)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000904)[0m   [0mSHOW TABLES[0m
+  [4;36;1mPage Columns (0.004063)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mSQL (0.001276)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSnippet Columns (0.002892)[0m   [0;1mSHOW FIELDS FROM `snippets`[0m
+  [4;35;1mSQL (0.000893)[0m   [0mSHOW TABLES[0m
+  [4;36;1mRadiant::Config Columns (0.002834)[0m   [0;1mSHOW FIELDS FROM `config`[0m
+  [4;35;1mRadiant::Config Load (0.044203)[0m   [0mSELECT * FROM `config` WHERE (`config`.`key` = 'assets.additional_thumbnails') LIMIT 1[0m
+  [4;36;1mRadiant::Config Load (0.000421)[0m   [0;1mSELECT * FROM `config` WHERE (`config`.`key` = 'assets.additional_thumbnails') LIMIT 1[0m
+  [4;35;1mSQL (0.001198)[0m   [0mSHOW TABLES[0m
+  [4;36;1mRadiant::Config Load (0.000387)[0m   [0;1mSELECT * FROM `config` WHERE (`config`.`key` = 'assets.content_types') LIMIT 1[0m
+  [4;35;1mRadiant::Config Load (0.000273)[0m   [0mSELECT * FROM `config` WHERE (`config`.`key` = 'assets.content_types') LIMIT 1[0m
+  [4;36;1mSQL (0.000932)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mRadiant::Config Load (0.000292)[0m   [0mSELECT * FROM `config` WHERE (`config`.`key` = 'assets.max_asset_size') LIMIT 1[0m
+  [4;36;1mRadiant::Config Load (0.000195)[0m   [0;1mSELECT * FROM `config` WHERE (`config`.`key` = 'assets.max_asset_size') LIMIT 1[0m
+  [4;35;1mSQL (0.001126)[0m   [0mSHOW TABLES[0m
+  [4;36;1mRadiant::Config Load (0.000268)[0m   [0;1mSELECT * FROM `config` WHERE (`config`.`key` = 'assets.image_magick_path') LIMIT 1[0m
+DEPRECATION WARNING: config.action_view.cache_template_extensions option has been deprecated and has no affect. Please remove it from your config files.  See http://www.rubyonrails.org/deprecation for details. (called from send at /usr/local/lib/ruby/gems/1.8/gems/radiant-0.7.1/vendor/rails/railties/lib/initializer.rb:464)
+DEPRECATION WARNING: Inflector is deprecated! Use ActiveSupport::Inflector instead.  See http://www.rubyonrails.org/deprecation for details. (called from /Users/chrisbeck/Documents/Projects/Netphase/Baytree/baytree/config/environment.rb:77)
+  [4;36;1mSQL (0.000172)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.017775)[0m   [0mSHOW TABLES[0m
+  [4;36;1mRadiant::Config Columns (0.002359)[0m   [0;1mSHOW FIELDS FROM `config`[0m
+  [4;35;1mRadiant::Config Load (0.001085)[0m   [0mSELECT * FROM `config` WHERE (`config`.`key` = 'assets.additional_thumbnails') LIMIT 1[0m
+  [4;36;1mRadiant::Config Load (0.000316)[0m   [0;1mSELECT * FROM `config` WHERE (`config`.`key` = 'assets.additional_thumbnails') LIMIT 1[0m
+  [4;35;1mSQL (0.000867)[0m   [0mSHOW TABLES[0m
+  [4;36;1mRadiant::Config Load (0.000380)[0m   [0;1mSELECT * FROM `config` WHERE (`config`.`key` = 'assets.content_types') LIMIT 1[0m
+  [4;35;1mRadiant::Config Load (0.001054)[0m   [0mSELECT * FROM `config` WHERE (`config`.`key` = 'assets.content_types') LIMIT 1[0m
+  [4;36;1mSQL (0.000780)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mRadiant::Config Load (0.000257)[0m   [0mSELECT * FROM `config` WHERE (`config`.`key` = 'assets.max_asset_size') LIMIT 1[0m
+  [4;36;1mRadiant::Config Load (0.000182)[0m   [0;1mSELECT * FROM `config` WHERE (`config`.`key` = 'assets.max_asset_size') LIMIT 1[0m
+  [4;35;1mSQL (0.000747)[0m   [0mSHOW TABLES[0m
+  [4;36;1mRadiant::Config Load (0.000222)[0m   [0;1mSELECT * FROM `config` WHERE (`config`.`key` = 'assets.image_magick_path') LIMIT 1[0m
+  [4;35;1mSQL (0.000904)[0m   [0mSHOW TABLES[0m
+  [4;36;1mPage Columns (0.002502)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mSQL (0.015684)[0m   [0mSELECT DISTINCT class_name FROM pages WHERE class_name <> '' AND class_name IS NOT NULL[0m
+  [4;36;1mSQL (0.000917)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.192347)[0m   [0mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.409873)[0m   [0;1mCREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)[0m
+  [4;35;1mSQL (0.001068)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.017016)[0m   [0;1mSELECT version FROM `schema_info`[0m
+  [4;35;1mSQL (0.000494)[0m   [0mSELECT version FROM `schema_migrations`[0m
+  [4;36;1mSQL (0.001085)[0m   [0;1mINSERT INTO `schema_migrations` (version) VALUES ('21')[0m
+  [4;35;1mSQL (0.000697)[0m   [0mINSERT INTO `schema_migrations` (version) VALUES ('1')[0m
+  [4;36;1mSQL (0.000970)[0m   [0;1mINSERT INTO `schema_migrations` (version) VALUES ('2')[0m
+  [4;35;1mSQL (0.000784)[0m   [0mINSERT INTO `schema_migrations` (version) VALUES ('3')[0m
+  [4;36;1mSQL (0.000751)[0m   [0;1mINSERT INTO `schema_migrations` (version) VALUES ('4')[0m
+  [4;35;1mSQL (0.000718)[0m   [0mINSERT INTO `schema_migrations` (version) VALUES ('5')[0m
+  [4;36;1mSQL (0.000692)[0m   [0;1mINSERT INTO `schema_migrations` (version) VALUES ('6')[0m
+  [4;35;1mSQL (0.000674)[0m   [0mINSERT INTO `schema_migrations` (version) VALUES ('7')[0m
+  [4;36;1mSQL (0.000679)[0m   [0;1mINSERT INTO `schema_migrations` (version) VALUES ('8')[0m
+  [4;35;1mSQL (0.000726)[0m   [0mINSERT INTO `schema_migrations` (version) VALUES ('9')[0m
+  [4;36;1mSQL (0.000685)[0m   [0;1mINSERT INTO `schema_migrations` (version) VALUES ('10')[0m
+  [4;35;1mSQL (0.000689)[0m   [0mINSERT INTO `schema_migrations` (version) VALUES ('11')[0m
+  [4;36;1mSQL (0.000881)[0m   [0;1mINSERT INTO `schema_migrations` (version) VALUES ('12')[0m
+  [4;35;1mSQL (0.000741)[0m   [0mINSERT INTO `schema_migrations` (version) VALUES ('13')[0m
+  [4;36;1mSQL (0.000747)[0m   [0;1mINSERT INTO `schema_migrations` (version) VALUES ('14')[0m
+  [4;35;1mSQL (0.000700)[0m   [0mINSERT INTO `schema_migrations` (version) VALUES ('15')[0m
+  [4;36;1mSQL (0.000747)[0m   [0;1mINSERT INTO `schema_migrations` (version) VALUES ('16')[0m
+  [4;35;1mSQL (0.000674)[0m   [0mINSERT INTO `schema_migrations` (version) VALUES ('17')[0m
+  [4;36;1mSQL (0.000896)[0m   [0;1mINSERT INTO `schema_migrations` (version) VALUES ('18')[0m
+  [4;35;1mSQL (0.000848)[0m   [0mINSERT INTO `schema_migrations` (version) VALUES ('19')[0m
+  [4;36;1mSQL (0.000661)[0m   [0;1mINSERT INTO `schema_migrations` (version) VALUES ('20')[0m
+  [4;35;1mSQL (0.000873)[0m   [0mDROP TABLE `schema_info`[0m
+  [4;36;1mSQL (0.000698)[0m   [0;1mSELECT schema_version FROM extension_meta WHERE name = 'Textile Filter'[0m
+  [4;35;1mSQL (0.001252)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.000299)[0m   [0;1mSELECT schema_version FROM extension_meta WHERE name = 'Markdown Filter'[0m
+  [4;35;1mSQL (0.000878)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.000207)[0m   [0;1mSELECT schema_version FROM extension_meta WHERE name = 'Archive'[0m
+  [4;35;1mSQL (0.000713)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.000184)[0m   [0;1mSELECT schema_version FROM extension_meta WHERE name = 'Reorder'[0m
+  [4;35;1mSQL (0.000579)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to AddPositionToPages (1)
+  [4;36;1mSQL (0.113960)[0m   [0;1mALTER TABLE `pages` ADD `position` int(11)[0m
+  [4;35;1mPage Columns (0.003845)[0m   [0mSHOW FIELDS FROM `pages`[0m
+  [4;36;1mPage Load (0.000994)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`parent_id` IS NULL) [0m
+  [4;35;1mPage Load (0.000606)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.parent_id = 1) ORDER BY title asc, position ASC[0m
+  [4;36;1mSQL (0.000160)[0m   [0;1mBEGIN[0m
+  [4;35;1mPage Update with optimistic locking (0.000706)[0m   [0m UPDATE `pages`
+ SET `position` = 1, `lock_version` = 1, `updated_at` = '2009-04-29 17:43:54'
+ WHERE id = 2
+ AND `lock_version` = 0
+[0m
+  [4;36;1mSQL (0.000929)[0m   [0;1mCOMMIT[0m
+  [4;35;1mPage Load (0.000609)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.parent_id = 2) ORDER BY title asc, position ASC[0m
+  [4;36;1mSQL (0.001064)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('Reorder-1')[0m
+  [4;35;1mSQL (0.001088)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.000277)[0m   [0;1mSELECT schema_version FROM extension_meta WHERE name = 'Paperclipped'[0m
+  [4;35;1mSQL (0.000271)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.000738)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('Paperclipped-7')[0m
+  [4;35;1mSQL (0.000714)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('Paperclipped-1')[0m
+  [4;36;1mSQL (0.000625)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('Paperclipped-2')[0m
+  [4;35;1mSQL (0.001872)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('Paperclipped-3')[0m
+  [4;36;1mSQL (0.000750)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('Paperclipped-4')[0m
+  [4;35;1mSQL (0.000674)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('Paperclipped-5')[0m
+  [4;36;1mSQL (0.000659)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('Paperclipped-6')[0m
+  [4;35;1mSQL (0.000752)[0m   [0mDELETE FROM extension_meta WHERE name = 'Paperclipped'[0m
+  [4;36;1mSQL (0.000622)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to CreateAssets (1)
+Migrating to CreatePaperclipAttributes (2)
+Migrating to CreateUserObserver (3)
+Migrating to CreatePageAttachments (4)
+Migrating to RenameUsers (5)
+Migrating to AddDefaultConfigs (6)
+Migrating to AddDefaultContentTypes (7)
+Migrating to AddContentType (8)
+  [4;35;1mRadiant::Config Load (0.000367)[0m   [0mSELECT * FROM `config` WHERE (`config`.`key` = 'assets.content_types') LIMIT 1[0m
+  [4;36;1mSQL (0.000101)[0m   [0;1mBEGIN[0m
+  [4;35;1mRadiant::Config Update (0.016151)[0m   [0mUPDATE `config` SET `value` = 'image/jpeg, image/pjpeg, image/gif, image/png, image/x-png, image/jpg, video/x-m4v, video/quicktime, application/x-shockwave-flash, audio/mpeg, video/mpeg, application/pdf, application/msword, application/vnd.ms-powerpoint, application/x-msmetafile, application/zip' WHERE `id` = 9[0m
+  [4;36;1mSQL (0.001186)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.000930)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('Paperclipped-8')[0m
+DEPRECATION WARNING: config.action_view.cache_template_extensions option has been deprecated and has no affect. Please remove it from your config files.  See http://www.rubyonrails.org/deprecation for details. (called from send at /usr/local/lib/ruby/gems/1.8/gems/radiant-0.7.1/vendor/rails/railties/lib/initializer.rb:464)
+DEPRECATION WARNING: Inflector is deprecated! Use ActiveSupport::Inflector instead.  See http://www.rubyonrails.org/deprecation for details. (called from /Users/chrisbeck/Documents/Projects/Netphase/Baytree/baytree/config/environment.rb:77)
+  [4;36;1mSQL (0.000136)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000783)[0m   [0mSHOW TABLES[0m
+  [4;36;1mRadiant::Config Columns (0.002927)[0m   [0;1mSHOW FIELDS FROM `config`[0m
+  [4;35;1mRadiant::Config Load (0.172130)[0m   [0mSELECT * FROM `config` WHERE (`config`.`key` = 'assets.additional_thumbnails') LIMIT 1[0m
+  [4;36;1mRadiant::Config Load (0.000465)[0m   [0;1mSELECT * FROM `config` WHERE (`config`.`key` = 'assets.additional_thumbnails') LIMIT 1[0m
+  [4;35;1mSQL (0.000902)[0m   [0mSHOW TABLES[0m
+  [4;36;1mRadiant::Config Load (0.000349)[0m   [0;1mSELECT * FROM `config` WHERE (`config`.`key` = 'assets.content_types') LIMIT 1[0m
+  [4;35;1mRadiant::Config Load (0.000268)[0m   [0mSELECT * FROM `config` WHERE (`config`.`key` = 'assets.content_types') LIMIT 1[0m
+  [4;36;1mSQL (0.001066)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mRadiant::Config Load (0.000338)[0m   [0mSELECT * FROM `config` WHERE (`config`.`key` = 'assets.max_asset_size') LIMIT 1[0m
+  [4;36;1mRadiant::Config Load (0.000317)[0m   [0;1mSELECT * FROM `config` WHERE (`config`.`key` = 'assets.max_asset_size') LIMIT 1[0m
+  [4;35;1mSQL (0.000832)[0m   [0mSHOW TABLES[0m
+  [4;36;1mRadiant::Config Load (0.000292)[0m   [0;1mSELECT * FROM `config` WHERE (`config`.`key` = 'assets.image_magick_path') LIMIT 1[0m
+  [4;35;1mSQL (0.000894)[0m   [0mSHOW TABLES[0m
+  [4;36;1mPage Columns (0.003786)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mSQL (0.050800)[0m   [0mSELECT DISTINCT class_name FROM pages WHERE class_name <> '' AND class_name IS NOT NULL[0m
